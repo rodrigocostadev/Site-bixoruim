@@ -103,7 +103,7 @@ a{
 /* LOGO ////////////////////////////////////////////////////////////////////////////// */
 .logo{
     /* background-color: black; */
-    background-image: url(/assets/backgroundkse.jpg);
+    background-image: url(assets/backgroundkse.jpg);
     background-size: contain;
     width: 100%;
     height: 650px;
@@ -274,7 +274,7 @@ a{
 /* VIDEO ////////////////////////////////////////////////////////////////////////////////////// */  /* FAZER MEDIA QUERY */
 .video{
     /* background-color: black; */
-    background-image: url(/assets/backgroundkse.jpg);
+    background-image: url(assets/backgroundkse.jpg);
     background-size: contain;
     justify-content: center;
     display: flex;
@@ -303,7 +303,7 @@ a{
 
 /* FOTOS /////////////////////////////////////////////////////////////////////////////////////////// */
 .fotos{
-    background-image: url(/assets/backgroundkse2.jpg);
+    background-image: url(assets/backgroundkse2.jpg);
     background-size: contain;
 }
 .fotos2{
@@ -335,7 +335,7 @@ a{
 
 /* AGENDA ////////////////////////////////////////////////////////////////////////////////////////////// FAZER MEDIAQUERY*/
 .agenda{
-    background-image: url(/assets/BixoRuim.jpg);
+    background-image: url(assets/BixoRuim.jpg);
     /* background-size: 48%;  */
     background-size: cover;
     background-position: 0px ;
@@ -397,7 +397,7 @@ a{
     justify-content: center;
     margin: auto;
     /* background-color: black; */
-    background-image: url(/assets/backgroundkse2.jpg);
+    background-image: url(assets/backgroundkse2.jpg);
     background-size: contain;
     padding-bottom: 50px;
 }
@@ -702,7 +702,7 @@ a{
 /* MEDIA QUERY AGENDA ////////////////////////////////////////////////////////////////////////////// */
 @media (max-width:650px){
     .agenda{
-        background-image: url(/assets/BixoRuim.jpg);
+        background-image: url(assets/BixoRuim.jpg);
         /* background-size: 100%;     */
     }
     .agenda2{
