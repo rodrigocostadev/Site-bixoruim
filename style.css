@@ -691,7 +691,7 @@ a{
         /* background-color: yellow; */
         width: 100%;
         font-family: 'Play', sans-serif;
-        font-size: 12px;
+        font-size: 10px;
     }
     .header{
         display: flex;
