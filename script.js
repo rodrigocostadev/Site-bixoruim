@@ -1,3 +1,6 @@
+//ESSE ARQUIVO NÃO ESTA FUNCIONANDO, FOI UM TESTE. teste realizado para detecção de qual 
+//tipo de dispositivo (movel ou pc) visitou a pagina, não funcionou mas aprendi coisas novas
+
 function detectarMobile(){
     if(
         navigator.userAgent.match(/android/i)|| 

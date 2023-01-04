@@ -578,6 +578,19 @@ a{
         width: 600px;
         height: 300px;
     }
+    .capa{
+        width: 100%;
+        background-image: url(assets/storm.jpg);
+        background-size: 50%;
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: none;
+        background-size: cover;
+        background-repeat: none;
+    }
+    .bgvideo{
+        display: none;
+    }
 }
 
 @media (max-width:680px){
