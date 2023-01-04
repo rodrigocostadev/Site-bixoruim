@@ -129,7 +129,7 @@ a{
     position: relative;
     /* position: absolute; */
     /* display: inline-block; */
-    top:-50px;
+    top:-100px;
     /* height: 600px; */
     right: 0;
     bottom: 0;
@@ -589,8 +589,11 @@ a{
         background-repeat: none;
     }
     .bgvideo{
-        display: none;
+        position: relative;
+        z-index: -100;
+        width: 70%;
     }
+    
 }
 
 @media (max-width:680px){
