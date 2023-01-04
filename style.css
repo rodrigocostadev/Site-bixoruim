@@ -105,19 +105,38 @@ a{
     /* background-color: black; */
     /* width: 100%; */
     /* height: 650px; */
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .logo > img {
     left: 50%;
     transform: translateX(-50%);
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     /* box-shadow: 0 0 20em black; */
+    /* background-color: aqua; */
 }
 .capa{
     width: 100%;
-    background-image: url(assets/storm.jpg);
-    background-size: cover;
+    /* background-image: url(assets/storm.jpg); */
+    background-size: 50%;
+    background-position-y: center;
+    background-position-x: center;
     background-repeat: none;
+    /* background-size: cover;
+    background-repeat: none; */
+}
+.bgvideo{
+    position: relative;
+    /* position: absolute; */
+    /* display: inline-block; */
+    top:-50px;
+    /* height: 600px; */
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+    width: 100%;
+    /* min-width: 100%; */
+
 }
 
 
@@ -269,6 +288,7 @@ a{
 .compreaqui:hover{
     transform: scale(1.2);
     transition: 400ms;
+    cursor: pointer;
 } 
 
 
