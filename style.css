@@ -12,6 +12,9 @@ a{
     margin-right: 20px;
     margin-top: 20px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -330,7 +333,7 @@ a{
     background-image: linear-gradient( white, black);
     background-size: cover;
 }
-.fotos2{
+/* .fotos2{
     display: grid;
     grid-template: auto auto auto auto / auto auto;
     justify-content: center;
@@ -340,6 +343,10 @@ a{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.fotos2 > img{
+    width: 50%;  
+    max-width: 600px;
+} */
 .titlefotos{
     text-align: center;
     color: black;
@@ -349,11 +356,61 @@ a{
     font-family: 'Play', sans-serif;
     font-size: 3rem;
 }
-.fotos2 > img{
-    width: 50%;  
-    max-width: 600px;
-    /* box-shadow: 0 0 2em black; */
+
+/* SLIDE DE FOTOS */
+#div-slider{
+    width: 70%;
+    height: 800px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    /* background-color: firebrick; */
+    margin: auto;
 }
+.slides{
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    height: 80%;
+    /* width: 100%; */
+    /* background-repeat: no-repeat; */
+    /* opacity: 0.1; */
+    /* background-color: aqua; */
+}
+/* #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+} */
+ .dark-image{    
+    filter: brightness(5%);
+    transition: filter 0.5s ease;
+    /* transition: opacity 1s;
+    opacity: 0;
+    z-index: 1; */
+    /* transition: opacity 1s ease; */
+ }
+#buttons-slide{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    width: 30px;
+}
+.arrow:hover{
+    transform: scale(1.4);
+    transition: 300ms;
+    cursor: pointer;
+}
+
 
 
 
@@ -749,6 +806,24 @@ a{
         padding: 10px;
         height: 30px;
     }
+}
+
+/* MEDIA QUERY FOTOS ////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width:750px){
+
+    #div-slider{
+        gap: 25px;
+
+    }
+
+    /* ABAIXO NÃO ESTA FUNCIONANDO A MUDANÇA DE ALTURA */
+    /* .slides{
+        height: 30%;
+    }
+
+    .arrows{
+        background-color: red;
+    } */
 }
 
 
